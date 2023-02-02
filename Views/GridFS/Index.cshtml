@@ -1,0 +1,21 @@
+﻿@model PicturesInfo
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<h1>Pictures and their Info</h1>
+
+<p>
+	<a asp-action = "Create">Create New</a>
+</p>
+
+<table class = "table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.Info)
+			</th>
+		</tr>
+	</thead>
+</table>
